@@ -225,7 +225,9 @@
             this.Controls.Add(this.buttonAtualizar);
             this.Controls.Add(this.buttonSalvar);
             this.Controls.Add(this.buttonNovo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Produto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Produto";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProduto)).EndInit();
             this.ResumeLayout(false);

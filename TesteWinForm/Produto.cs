@@ -232,6 +232,8 @@ namespace TesteWinForm
             else
             {
                 MessageBox.Show("Informe todos os dados requeridos");
+
+                LimparDados();
             }
         }
 
